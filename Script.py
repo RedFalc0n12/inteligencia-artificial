@@ -54,8 +54,8 @@ def analisar_documento(nome_pdf, pergunta):
         input=[
             {"role": "system",
              "content": "Você é um analisador de documentos. "
-                        "Sempre responda em **Markdown válido**, incluindo:\n"
                         "priorize o pedido do usuario\n"
+                        "Sempre responda em **Markdown válido**, incluindo:\n"
                         "- Um título principal (###)\n"
                         "- Listas com marcadores (-)\n"
                         "- Destaques em negrito (**texto**)\n"},
