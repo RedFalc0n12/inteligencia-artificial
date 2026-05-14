@@ -4,7 +4,7 @@ trabalhar com criação de agentes inteligentes
 instale as bibliotecas necessarias
     pip install -r requerimentos.txt  
 
-abra o .env e configure
+abra o .env e configure.
     OPENAI_API_KEY="" # insira sua chave   
     CAMINHO_PASTA = "./documentos" # uma pasta local como mude para o caminho que desejar (opicional)
     MARKDOWN="false" # mude para true se quiser que o markdown fique como se fosse um html (opicional)
