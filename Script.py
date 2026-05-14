@@ -21,7 +21,6 @@ dir_leitura(caminho_pdf)
 
 def analisar_documento(nome_pdf, pergunta):
     
-    pergunta =""
     source = "N/A"
     input_file = None
 
