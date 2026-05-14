@@ -81,7 +81,7 @@ def analisar_documento(nome_pdf, pergunta):
     return json.dumps(output, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    nome_pdf = "Atividade plano de ação (2).pdf"
+    nome_pdf = "v18n36a08.pdf"
     pergunta = "o que diz este documento?"
     print(analisar_documento(nome_pdf, pergunta))
 
